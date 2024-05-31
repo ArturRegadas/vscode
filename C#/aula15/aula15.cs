@@ -17,14 +17,17 @@ public class aula15
         bool escolha_correta=true;
         string meio="";
         switch(locomocao){
+            case 'A'
             case 'a':
                 velocidade=850;
                 meio="AVIAO";
                 break;
+            case 'O'
             case 'o':
                 velocidade=60;
                 meio="ONIBUS";
                 break;
+            case 'B'
             case 'b':
                 velocidade=35;
                 meio="BARCO";
