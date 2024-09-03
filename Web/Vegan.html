@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            
+            background-color:#007009;
+            color: white;
+            padding: 0px 0;
+            width: 100%;
+
+            
+        
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        nav ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            display: flex; 
+        }
+
+        nav li {
+            margin: 0px; 
+        }
+
+        nav li a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            align-items: center;
+            padding: 0px 16px 0px; 
+            text-decoration: none;
+            height: 70px;
+            width: 150px;
+            
+        }
+        nav li a:hover{
+            background-color: rgb(0, 87, 33);
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            width: 1400px; 
+            margin-top: 20px;
+            margin-left:250px;
+        }
+
+        .grid div {
+            background-color: #00a01b;
+            border: 2px solid #474747;
+            color: whitesmoke;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            width: 350px;
+            height: 150px;
+            margin: 10px; 
+            padding-left: 10px;
+        }
+        .grid div:hover{
+            background-color: #016312;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Vegetariano</a></li>
+                <li><a href="#">Lacto-Vegetariano</a></li>
+                <li><a href="#">Vegano</a></li>
+            </ul>
+        </nav>
+
+      </header>
+
+    <div class="grid">
+        <div><img src="https://static.itdg.com.br/images/auto-auto/4fcb5ddef21a1861d9680063cabe8f10/ovo-cozido.jpg" alt="" height="150"></div>
+        <div>Dieta que exclui carne e peixe, mas pode incluir laticínios e ovos, dependendo da variação escolhida.</div>
+        <div><H2>Vegetariano</H2></div>
+        <div><img src="https://s3.static.brasilescola.uol.com.br/be/2022/06/leite.jpg" alt="" height="150"></div>
+        <div>Dieta vegetariana que exclui carne e ovos, mas inclui laticínios como leite e queijo.</div>
+        <div><h2>Lacto-Vegetariano</h2></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQti_GzcxvDLimYAO-e6IkIlJms7VyPt_iFSQ&s"  height="150"></div>
+        <div>Estilo de vida que evita todos os produtos de origem animal, incluindo alimentos, vestuário e cosméticos, promovendo uma dieta baseada em vegetais</div>
+        <div><h2>Vegano</h2></div>
+    </div>
+</body>
+</html>
