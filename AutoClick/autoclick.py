@@ -10,7 +10,8 @@ x=0
 #comandos
 
 
-
+lg = "user"
+password = "123"
 
 
 
@@ -105,7 +106,7 @@ def login():
                 listener.join()
 
 
-    if usuario == 'User@email.com' and senha == 'password' and concordo == 1:
+    if usuario == lg and senha == password and concordo == 1:
         janela.destroy()
         # criação da janela
         janela_1=ThemedTk(theme='breeze')
